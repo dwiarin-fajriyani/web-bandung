@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body > header{
+    background-color:chocolate;
+    color: white;
+    padding-top: 30px;
+    
+}
+header h1{
+    text-align: center;
+    
+}
+header p{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+nav {
+    background-color: brown;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap :20px;
+    padding:10px;
+}
+
+a:hover{
+    color: chartreuse;
+    font-weight: bold;
+}
+a:hover::after{
+    content: "🔗";
+}
+
+main {
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+}
+
+#content{
+    /* flex 3 artinya pembagian luasnya 75%  */
+    flex: 3;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+aside {
+    
+    flex : 1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+  margin-right: auto;
+}
+
+
+
